@@ -8,7 +8,7 @@ body {
 }
 
 /* Navbar Section */
-.navbar{
+nav{
   display: flex;
   justify-content: end;
   align-items: center;
@@ -20,9 +20,10 @@ body {
   box-shadow: 10px 100px 500px #233554;
 }
 
-.navbar a{
+.navbar button{
   color: #ccd6f6;
-  text-decoration: none;
+  background-color: #0a192f;
+  border: none;
   align-items: center;
   margin-right: 40px;
   transition: color 1s;
@@ -31,11 +32,11 @@ body {
   margin-right: 40px;
 }
 
-.navbar a:hover{
+.navbar button:hover{
   color: #64ffda;
 }
 
-.navbar button{
+.resume button{
   background-color: #0a192f;
   color: #64ffda;
   border: solid 1px #64ffda;
@@ -49,8 +50,13 @@ body {
   transition-timing-function: ease;
 }
 
-.navbar button:hover{
+.resume button:hover{
   background-color: rgba(100, 255, 218, 0.1);
+}
+
+.resume a{
+  color: #64ffda;
+  text-decoration: none;
 }
 
 /* Main Section */
@@ -106,3 +112,145 @@ main{
 .about button:hover{
   background-color: rgba(100, 255, 218, 0.1);
 }
+
+/* About Me Section */
+.aboutMe{
+  color: #ccd6f6;
+  padding-left: 10%;
+  padding-right: 20px;
+  padding-top: 100px;
+  width: 70%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.aboutMe h1{
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+
+.aboutMe ul li::before{
+  content: "▹ ";
+  color: #64ffda;
+}
+
+.aboutMe ul.list{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 8px 50px;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  overflow: hidden;
+  list-style: none;
+}
+
+/* Work Section */
+.workMain{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "card-1 card-2"
+    "card-3 card-4"
+    "card-5 card-6";
+  padding-top: 70px;
+}
+
+.card{
+  display: flex;
+  margin-top: 30px;
+}
+
+.workMain .cardImg{
+  margin-top: 5px;
+}
+
+.workMain .cardText{
+  margin-left: 40px;
+  height: 200px;
+  color: #ccd6f6;
+  max-width: 300px;
+}
+
+.workMain .cardText h2{
+  margin-top: 0px;
+}
+
+.workMain button{
+  background-color: #0a192f;
+  color: #64ffda;
+  border: solid 1px #64ffda;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 1s;
+  transition-timing-function: ease;
+}
+
+.workMain button:hover{
+  background-color: rgba(100, 255, 218, 0.1);
+}
+
+/* Contact */
+.contact-section{
+  margin-top: 170px;
+  text-align: center;
+  z-index: 1;
+  margin-right: 100px;
+  color: #e6f1ff;
+}
+
+.contact-section h1{
+  color: #8892b0;
+  font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  font-size: clamp(40px, 8vw, 80px);
+  line-height: 0.9;
+  margin: 16px 0px 0px;
+}
+
+.contact-section a{
+  color: #64ffda;
+  text-decoration: none;
+}
+
+.contact-section button{
+  background-color: #0a192f;
+  color: #64ffda;
+  border: solid 1px #64ffda;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  margin-top: 50px;
+  transition: 1s;
+  transition-timing-function: ease;
+}
+
+.contact-section button:hover{
+  background-color: rgba(100, 255, 218, 0.1);
+}
+
+.social_icons{
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+
+.social_icons li{
+  width: 30px;
+  height: 30px;
+  list-style: none;
+  margin-right: 40px;
+  
+}
+
+.contact-section ul a:hover svg{
+  width: 35px;
+  height: 35px;
+}
+
+
