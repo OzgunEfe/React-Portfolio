@@ -10,7 +10,7 @@ const Work = () => {
             <div className="cardImg">
               <img
                 src={project.img}
-                width="250px"
+                width="350px"
                 height="250px"
                 alt={project.title}
               />
@@ -29,7 +29,7 @@ const Work = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button>See on GitHub</button>
+                <button>Go to GitHub</button>
               </a>
             </div>
           </li>
@@ -41,20 +41,3 @@ const Work = () => {
 
 export default Work;
 
-{
-  /* <div className="cardImg">
-<Image
-  src={JammmingImg}
-  alt="Jammming Webpage"
-  width="200px"
-  height="200px"
-/>
-</div> */
-}
-
-// import JammmingImg from "./img/jammming-min.png";
-// import CodingQuizImg from "./img/coding-quiz.png";
-// import DailyPlannerImg from "./img/daily-planner.png";
-// import PasswordGeneratorImg from "./img/password-generator.png";
-// import TodoAppImg from "./img/todo-app.png";
-// import WeatherAppImg from "./img/weather-dashboard.png";
