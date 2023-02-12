@@ -10,8 +10,8 @@ const Work = () => {
             <div className="cardImg">
               <img
                 src={project.img}
-                width="350px"
-                height="250px"
+                width="100%"
+                height="100%"
                 alt={project.title}
               />
             </div>

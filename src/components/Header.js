@@ -11,7 +11,7 @@ function Header() {
         <div className="navbar">
           <NavLink className="navitem" to="/home">Home</NavLink>
           <NavLink className="navitem" to="/about">About</NavLink>
-          <NavLink className="navitem" to="/work">Work</NavLink>
+          <NavLink className="navitem" to="/work">Works</NavLink>
           <NavLink className="navitem" to="/contact">Contact</NavLink>
         </div>
         <div className="resume">

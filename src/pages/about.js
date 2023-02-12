@@ -6,14 +6,18 @@ function About() {
       <div className="aboutMe">
         <h1>About Me</h1>
         <p>
-          Hello! My name is Ozgun and I enjoy creating things that live on the
-          internet. My interest in web development started back in 2018 when I
-          decided to try to set up my photography portfolio website.
+          As a recent graduate of a front-end development Bootcamp, I bring a
+          unique combination of mechanical engineering and tech skills to the
+          table. I have honed my HTML, CSS, and JavaScript abilities, and have
+          experience in creating dynamic websites.
         </p>
         <p>
-          After working as a project manager, I realized what interested me was
-          web development and I started working to change my career. Now I'm
-          working as a Frond-End developer.
+          My project management background has taught me the importance of
+          effective communication and collaboration. I am confident in my
+          ability to approach problems from different angles and find creative
+          solutions, with a focus on delivering quality results. I am eager to
+          bring my expertise, passion for technology, and project management
+          experience to a new role as a front-end developer.
         </p>
         <p>Here are a few technologies I’ve been working with recently:</p>
         <ul className="list">
@@ -26,10 +30,9 @@ function About() {
         </ul>
       </div>
       <div className="profilePic">
-        <img src={ProfilePic} alt="Image" width="320px" height="320px" />
+        <img src={ProfilePic} alt="profileImg" width="320px" height="320px" />
       </div>
     </div>
-    
   );
 }
 

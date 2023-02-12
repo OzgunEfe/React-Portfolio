@@ -17,7 +17,7 @@ nav{
   position: fixed;
   border-bottom: solid 1px;
   background-color: #0a192f;
-  box-shadow: 10px 80px 200px #233554;
+  box-shadow: 10px 30px 400px #233554;
 }
 
 .navbar .navitem{
@@ -171,7 +171,7 @@ main{
 }
 
 .profilePic{
-  margin-top: 130px;
+  margin-top: 140px;
   margin-right: 10%;
   margin-left: 5%;
   border-radius: 10%;
@@ -182,13 +182,12 @@ main{
 
 
 /* Work Section */
-
 .card{
-  margin-top: 150px;
+  margin-top: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 120px;
+  padding-right: 150px;
 }
 
 .card li{
@@ -201,6 +200,12 @@ main{
   box-shadow: 10px 20px 70px #233554;
   margin-top: 20px;
   background-color: #112240;
+  transition: 2s;
+  transition-timing-function: ease;
+}
+
+.card li:hover{
+  background-color: #233554;
 }
 
 .cardImg{
@@ -304,4 +309,31 @@ main{
   height: 35px;
 }
 
+/* Media Queries */
+/* NavBar */
+@media (max-width: 550px) {
+  .navbar .navitem{
+      margin-right: 30px;
+  }
+}
 
+/* About */
+@media (max-width: 1025px) {
+  .profilePic{
+    display: none;
+  }
+}
+
+/* Work */
+@media (max-width: 750px) {
+  .card{
+    padding-right: 40px;
+  }
+}
+
+/* Contact */
+@media (max-width: 600px) {
+  .contact-section{
+    margin-right: 20px;
+  }
+}
