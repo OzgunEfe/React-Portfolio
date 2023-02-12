@@ -1,35 +1,27 @@
 import "./App.css";
-import NavBar from "./components/nav";
-import Main from "./components/main";
-import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Home from "./components/Home";
 import About from "./pages/about";
 import Work from "./pages/work";
 import Contact from "./pages/contact";
 
 function App() {
-  const [page, setPage] = useState("main");
-
-  const project = () => {
-    switch (page) {
-      case "main":
-        return <Main setPage={setPage} />;
-      case "about":
-        return <About />;
-      case "work":
-        return <Work setPage={setPage} />;
-      case "contact":
-        return <Contact />;
-      default:
-        return <Main setPage={setPage} />;
-    }
-  };
 
   return (
     <div>
       <nav>
-        <NavBar setPage={setPage} />
+        <Header />
       </nav>
-      <main>{project()}</main>
+      <main>
+        <Routes>
+        <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
     </div>
   );
 }

@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Jammming",
+        "GitHub": "https://github.com/OzgunEfe/Jammming",
+        "liveLink": "http://ozgun-jamming.surge.sh/",
+        "img": "./img/jammming-min.png"
+    },
+    {
+        "title": "Weather Dashboard",
+        "GitHub": "https://github.com/OzgunEfe/Weather-Dashboard",
+        "liveLink": "https://ozgunefe.github.io/Weather-Dashboard/",
+        "img": "./img/weather-dashboard.png"
+    },
+    {
+        "title": "Daily Planner",
+        "GitHub": "https://github.com/OzgunEfe/Daily-Planner-App",
+        "liveLink": "https://ozgunefe.github.io/Daily-Planner-App/",
+        "img": "./img/daily-planner.png"
+    },
+    {
+        "title": "Coding Quiz App",
+        "GitHub": "https://github.com/OzgunEfe/coding-quiz-app",
+        "liveLink": "https://ozgunefe.github.io/coding-quiz-app/",
+        "img": "./img/coding-quiz.png"
+    },
+    {
+        "title": "Password Generator",
+        "GitHub": "https://github.com/OzgunEfe/password-generator",
+        "liveLink": "https://ozgunefe.github.io/password-generator/",
+        "img": "./img/password-generator.png"
+    },
+    {
+        "title": "Todo App",
+        "GitHub": "https://github.com/OzgunEfe/todo-app",
+        "liveLink": "https://ozgunefe.github.io/todo-app/",
+        "img": "./img/todo-app.png"
+    }
+]
