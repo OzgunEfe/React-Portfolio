@@ -7,7 +7,7 @@ I created a personal portfolio website using [React](https://create-react-app.de
 - I used [Netlify](https://www.netlify.com/) for deployment.
 
 ### Live Link
-[Check out my website](https://silver-hummingbird-171dad.netlify.app/) :rocket:
+[Check out my website](https://ozgunefe.netlify.app/) :rocket:
 
 I was inspired by [this Design](https://brittanychiang.com/).
 
